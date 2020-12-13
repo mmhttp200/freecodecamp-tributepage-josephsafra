@@ -28,3 +28,17 @@ footer{
   color: var(--gold);
   font-weight: 600;
 }
+
+.container{
+  animation-name: container;
+  animation-duration: 5s;
+}
+
+@keyframes container{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
